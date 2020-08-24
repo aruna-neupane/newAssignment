@@ -1,0 +1,24 @@
+.sider{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    height: 100%;
+    border-radius: 20px;
+    margin: 10;
+    padding-top: 100%;
+    padding-bottom: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.home-row{
+    display:'flex';
+    margin:'30px';
+}
+.home-col{
+    height:'100%';
+    width:'18%';
+}
+.content-col1{
+    width:'40%';
+    border-right:'1px';
+    border-right-color:'lightgray';
+    border-right-style:'solid';
+}

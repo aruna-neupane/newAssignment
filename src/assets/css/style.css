@@ -1,0 +1,88 @@
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+  }
+  .text-style{
+    font-family: 'Srisakdi', cursive;
+    font-size: 20px
+  }
+.login-page{
+  background-image: url('./../images/bg3.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+.container-row{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding-left: 18%;
+    max-height:100%;
+    flex: 1;
+    display: inline-block;
+    
+}
+.logo{
+    margin-left: 25%;
+    margin-top: 19.5%;
+    margin-bottom: auto;
+    max-height:50%;
+    max-width: 50%;
+    
+}
+.first-div{
+    width:40%;
+    min-height:100%; 
+    float: left;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 70px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.second-div{
+    width:40%;
+    min-height:100%;
+    float: left;
+    background-color: rgba(43, 39, 39, 0.3);
+    color: #ffffff;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    border-radius: 0px 70px 0px 0px;
+}
+.login-form {
+    margin-top: 12%;
+    padding-left: 13%;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    max-height: 100%
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button {
+    width: 30%;
+    color: #000000;
+    background-color: #ffffff;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+  }
+  button:focus {
+    border: none;
+    outline: none;
+}
+input:focus{
+  outline:none;
+}
